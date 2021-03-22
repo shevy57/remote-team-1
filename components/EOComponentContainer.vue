@@ -2,7 +2,7 @@
   <v-card :light="!dark">
     <v-toolbar :color="bar.class" :light="!dark">
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
-      <v-toolbar-title>Title</v-toolbar-title>
+      <v-toolbar-title>{{ title }}</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-switch v-model="dark" class="mt-5"></v-switch>
       <v-btn icon>
@@ -12,15 +12,7 @@
     <v-card :light="!dark" class="mt-8" elevation="0">
       <v-row>
         <v-col class="text-center">
-          <img src="/v.png" alt="Vuetify.js" class="mb-5" />
-          <blockquote class="blockquote">
-            Container for docket filter upload
-            <footer>
-              <small>
-                <em>&mdash;John Johnson</em>
-              </small>
-            </footer>
-          </blockquote>
+          <EOWelcome></EOWelcome>
         </v-col>
       </v-row>
     </v-card>
@@ -41,6 +33,12 @@ export default {
       },
       dark: false,
     }
+  },
+  props: {
+    title: {
+      type: String,
+      default: 'Title',
+    },
   },
 }
 </script>

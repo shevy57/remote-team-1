@@ -83,13 +83,13 @@ export default {
         {
           icon: 'mdi-chart-bubble',
           title: 'Docket Filter upload',
-          to: '/docketFilterUpload',
+          to: '/docketFilterUploadPage',
         },
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js',
+      title: 'Fiverr Resources Application Development Shell (RADS)',
     }
   },
 }

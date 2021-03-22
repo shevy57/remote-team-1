@@ -1,5 +1,5 @@
 <template>
-  <EOComponentContainer></EOComponentContainer>
+  <EOComponentContainer title="Docket Filter Upload"></EOComponentContainer>
 </template>
 
 <script>
