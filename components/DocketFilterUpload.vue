@@ -1,5 +1,7 @@
 <template>
-  <div>docket filter upload</div>
+  <div>
+    <span class="text-h3 red--text">Your control instance </span>
+  </div>
 </template>
 
 <script setup>

@@ -1,5 +1,5 @@
 <template>
-  <v-card :light="!dark">
+  <v-card :light="!dark" minHeight="600">
     <v-toolbar :color="bar.class" :light="!dark">
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
       <v-toolbar-title>{{ title }}</v-toolbar-title>
@@ -13,6 +13,12 @@
       <v-row>
         <v-col class="text-center">
           <EOWelcome></EOWelcome>
+        </v-col>
+      </v-row>
+
+      <v-row>
+        <v-col class="text-center">
+          <component v-bind:is="boundCpt"></component>
         </v-col>
       </v-row>
     </v-card>
@@ -38,6 +44,10 @@ export default {
     title: {
       type: String,
       default: 'Title',
+    },
+    boundCpt: {
+      type: Object,
+      default: () => {},
     },
   },
 }
