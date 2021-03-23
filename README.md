@@ -1,20 +1,20 @@
-# offshore1
+# Instructions
 
-## Build Setup
+## Step 1) Watch this vid
 
-```bash
-# install dependencies
-$ npm install
+[contributing code on github](https://tinyurl.com/yn6zfhx2)\
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Step 2) Fork/build the code
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+---
 
-# generate static project
-$ npm run generate
-```
+1. Fork the repo
+2. run npm install
+3. run it <br/>
+   npm run dev
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Code the component
+
+---
+
+## Commit the changes as a PR
