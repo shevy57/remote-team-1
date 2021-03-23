@@ -13,8 +13,11 @@
 3. run it <br/>
    npm run dev
 
-## Code the component
-
+## Code the component\
 ---
+
+Write code to replace the component  
+you are assigned to\
+code.
 
 ## Commit the changes as a PR
